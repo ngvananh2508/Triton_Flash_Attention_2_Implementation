@@ -16,11 +16,11 @@ The implementation achieves performance parity with PyTorch's native `SDPA` Flas
 
 | Seq Length (N) | vs Naive PyTorch | vs Native SDPA |
 | :--- | :--- | :--- |
-| 1024 | 1.35x | 0.69x |
-| 2048 | 2.61x | 2.59x |
-| 4096 | 2.82x | 0.91x |
-| 8192 | 4.33x | 1.11x |
-| 16384 | 4.28x | 1.02x |
+| 1024 | 1.53x | 0.73x |
+| 2048 | 1.96x | 2.05x |
+| 4096 | 3.19x | 0.96x |
+| 8192 | 4.56x | 1.14x |
+| 16384 | 4.32x | 1.01x |
 
 *(Results based on FP16 benchmarks on NVIDIA GPU hardware.)*
 
